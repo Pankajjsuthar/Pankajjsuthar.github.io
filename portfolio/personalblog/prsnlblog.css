@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(143, 142, 142);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(126, 123, 123);
+}
+
+
+
+.introduction .circular-pic{
+    width: 45%;
+    display: inline-block;
+}
+.introduction .circular-pic img{
+    float: left;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 20px ;
+}
+.introduction .righttext{
+    display: inline-block;
+    width: 55%;
+}
+.introduction .righttext .intro-text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.introduction .righttext .intro-text p{
+    text-align: justify;
+}

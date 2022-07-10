@@ -264,7 +264,7 @@ section .title::after{
 
 .projects, .teams{
     color:#fff;
-    background: #111;
+    background: #000000;
 }
 .projects .title::before,
 .teams .title::before{
@@ -277,7 +277,7 @@ section .title::after{
 }
 .projects .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #517a82;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -299,9 +299,10 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .projects .serv-content .card:hover i{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .projects .serv-content .card .text{
+    color: rgb(0, 0, 0);
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
